@@ -9,6 +9,11 @@
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
+@media screen and (max-width: 750px) {
+  .w-layout-grid {
+    display: block;
+  }
+}
 
 .w-checkbox {
   display: block;
@@ -531,21 +536,21 @@
 }
 
 .section-main {
-  display: -webkit-box;
+/*  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;*/
   width: 100%;
   padding-top: 80px;
   padding-bottom: 100px;
-  -webkit-box-pack: justify;
+/*  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
-  align-items: flex-start;
+  align-items: flex-start;*/
 }
 
 .section-main.full {
