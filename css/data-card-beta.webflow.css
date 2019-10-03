@@ -654,7 +654,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 20px;
+/*  margin-right: 20px;*/
   padding: 20px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -819,8 +819,7 @@
 }
 
 .section-secondary {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 20px 100px 20px;
   background-color: #fafbff;
 }
 
